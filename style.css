@@ -1,0 +1,66 @@
+body {
+  font-family: "Playwrite PT";
+  background-color: #FFF;
+  color: #C70A80;
+  padding:100px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  color: #AF47D2;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #939185;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: #EBF400;
+}
+
+#background-pic {
+  width: 100%;
+  height: 70%;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.container {
+  background-color:#DBD8F0;
+  padding: 20px;
+  width: 50px auto;
+  margin: 50px auto;
+  border-radius: 10px 10px 10px 10px;
+  border: 4px solid #939185;
+  box-shadow: 0 0 16px rgba(1.1,1.1,1.1,1.1)
+}
+
+.fa-solid {
+  font-size: 50px;
+  color: #DA627D
+}
+
+.fa-solid:hover {
+  color: #EBF400;
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
